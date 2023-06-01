@@ -10,13 +10,14 @@ public class Drawing implements Drawable {
         drawings = new ArrayList<>();
     }
 
+    public void addDrawing(Drawable drawing) {
+        drawings.add(drawing);
+    }
+
+    @Override
     public void draw() {
         for (Drawable drawing : drawings) {
             drawing.draw();
         }
-    }
-
-    public void addDrawing(Drawable drawing) {
-        drawings.add(drawing);
     }
 }
