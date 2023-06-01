@@ -10,7 +10,7 @@ public class EnglishTranslation implements Translation {
 
     @Override
     public String translateGoodBye() {
-        return "good bye";
+        return "goodbye";
     }
 
     @Override
